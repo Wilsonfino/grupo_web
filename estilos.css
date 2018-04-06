@@ -1,0 +1,145 @@
+*{
+	margin: 0%; /*margenes estandar	*/
+	padding: 0%; /*relleno interno de la caja la engorda*/
+	font-family: arial; /*esta es la fuente de la letra	*/
+}
+.logo{
+	background:#76D7C4 ;/*color del fondo	*/
+
+}
+.logounad{	
+	height: 11%; /*altura	*/
+	width: 30%; /*ancho	*/
+	display: inline-block;
+}
+.principal{	
+	color: red; /*color de la letra	*/
+	/*font-size: 15%; tamaño de la letra*/
+	width: 60%;
+	margin-left: 0%; /*margen de la caja a la izquierda	*/
+	text-align: center; /*alinear el texto	*/
+	display: inline-block; /*bloquear que la caja quede en una sola linea y permita alojar otra al lado	*/
+	vertical-align: 80%;
+	padding: 2%;
+}
+.titulo{
+	text-align: center;
+	background: #434343;
+	margin: 3% 15% 6%;
+	}
+.subtitulo{
+	margin: 2% 3%;
+}
+.parrafo{
+	text-align: right;
+	color: red;
+	font-size: 60%;
+}
+.parrafo2{
+	background: blue;
+	text-align: center;
+	color: green;
+	display: inline-block;
+	width: 40%;
+}
+.multimedia{
+	display: inline-block;
+	width: 560px;
+	height: 315px;
+	
+}
+
+
+			.header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+				margin-top: 1%;
+			}
+			
+			ul, ol {
+				list-style:none;
+
+			}
+			
+			.nav > li {
+				float:left;
+				top: 0%;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+				top: 0%;
+				
+
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:600px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			.cuadro {
+
+                margin:900px;
+				height:auto; overflow: hidden;
+				border: 150px solid;
+				margin-top: 100px;
+				bottom: 15%
+				top:10px;
+				 float: left;
+
+
+			}
+			.uno{
+				height: 23%; /*altura	*/
+				width: 30%
+
+			}
+			.uno{
+				 float: left;
+				border: 5px solid;
+				margin:0px;
+				position: absolute;
+				margin-top: 30px;
+				bottom: 60%;
+			}
+			
+		.unodas{
+		         float: left;
+				border: 5px solid;
+				margin:0px;
+				position: absolute;
+				margin-top: 30px;
+				bottom: 60%;
+				width: 50%;
+
+				}
+				.unodas{
+		         margin-left: 100px;
+		         margin-top:100px;
+		         height: 200px;
+		         width:100px;
+		         height: 23%;
+				}
