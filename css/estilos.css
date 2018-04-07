@@ -23,19 +23,24 @@ iframe{
     height:320px;
 }
 .logo{
-	background:#76D7C4 ;/*color del fondo	*/
-	
+	background:#005883 ;/*color del fondo	*/
+
 }
 .logounad{	
+	margin: 1;
+	padding-top: 0;
 	height: 11%; /*altura	*/
 	width: 30%; /*ancho	*/
 	display: inline-block;
 }
+
 .principal{	
-	color: red; /*color de la letra	*/
+	color: #202020; /*color de la letra	*/
 	/*font-size: 15%; tamaño de la letra*/
-	width: 60%;
-	margin-left: 0%; /*margen de la caja a la izquierda	*/
+	width: 50%;
+	margin-top: 2.5%;
+	margin-left: 20%; /*margen de la caja a la izquierda	*/
+	font-family: Franklin Gothic Book;
 	text-align: center; /*alinear el texto	*/
 	display: inline-block; /*bloquear que la caja quede en una sola linea y permita alojar otra al lado	*/
 	vertical-align: 80%;
